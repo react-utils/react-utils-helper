@@ -1,3 +1,4 @@
+var grunt = require('grunt');
 grunt.loadNpmTasks('grunt-react');
 
 grunt.initConfig({
@@ -6,8 +7,8 @@ grunt.initConfig({
       files: [
         {
           expand: true,
-          cwd: 'path/to/jsx/templates/dir',
-          src: ['components/ComponentHelper/**/*.jsx'],
+          cwd: 'src/components/ComponentHelper/',
+          src: ['**/*.jsx'],
           dest: 'lib',
           ext: '.js'
         }
