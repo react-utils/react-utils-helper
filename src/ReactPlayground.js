@@ -42,7 +42,6 @@ var TabPane = require('react-bootstrap/lib/TabPane');
 var Tooltip = require('react-bootstrap/lib/Tooltip');
 var Well = require('react-bootstrap/lib/Well');
 
-var Repeat = require('react-utils-helper/src/components/ComponentHelper/repeat');
 
 var IS_MOBILE = typeof navigator !== 'undefined' && (
   navigator.userAgent.match(/Android/i)
