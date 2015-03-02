@@ -7,7 +7,6 @@
 var React = require('react/addons');
 
 require('bootstrap/dist/css/bootstrap.min.css');
-require('font-awesome/less/font-awesome.less');
 
 window.jQuery = require('jquery');
 window.$ = window.jQuery;
