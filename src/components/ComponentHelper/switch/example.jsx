@@ -4,9 +4,9 @@
 
 'use strict';
 var React = require('react')
-var Switch = require('./index.jsx');
-var When = require('./when.jsx');
-var Default = require('./default.jsx');
+var Switch = require('./index');
+var When = require('./when');
+var Default = require('./default');
 var value=2;
 module.exports = <div>
 				<Switch expression={value}>

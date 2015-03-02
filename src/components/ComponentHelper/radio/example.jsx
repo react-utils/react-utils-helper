@@ -4,7 +4,7 @@
 
 'use strict';
 var React = require('react')
-var Radio = require('./index.jsx');
+var Radio = require('./index');
 var formMixin = require('mixins/formMixin');
 
 var MyComponent = React.createClass({
