@@ -69,7 +69,7 @@ var ComponentsPage = React.createClass({
                   </div>
                   <h2 id="buttons-sizes">Sizes</h2>
                   <p>Fancy larger or smaller buttons? Add <code>bsSize="large"</code>, <code>bsSize="small"</code>, or <code>bsSize="xsmall"</code> for additional sizes.</p>
-                  <ReactPlayground codeText={fs.readFileSync(__dirname + '/../examples/ButtonSizes.js', 'utf8')} />
+                  <ReactPlayground codeText={fs.readFileSync(__dirname + '/../examples/SwitchComponent.js', 'utf8')} />
 
                   <p>Create block level buttons—those that span the full width of a parent— by adding the
                       <code>block</code> prop.</p>

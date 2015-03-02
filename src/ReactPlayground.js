@@ -42,6 +42,11 @@ var TabPane = require('react-bootstrap/lib/TabPane');
 var Tooltip = require('react-bootstrap/lib/Tooltip');
 var Well = require('react-bootstrap/lib/Well');
 
+var Repeat = require('react-utils-helper/lib/repeat');
+var Switch = require('react-utils-helper/lib/switch');
+var When = require('react-utils-helper/lib/switch/when');
+var Default = require('react-utils-helper/lib/switch/default');
+
 
 var IS_MOBILE = typeof navigator !== 'undefined' && (
   navigator.userAgent.match(/Android/i)
