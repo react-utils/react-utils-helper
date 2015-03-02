@@ -8,3 +8,6 @@ bower_components/
 *.DS_Store
 *.swp
 *.out
+
+
+npm-debug.log
