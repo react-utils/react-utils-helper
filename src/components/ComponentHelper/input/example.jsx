@@ -4,7 +4,7 @@
 
 'use strict';
 var React = require('react')
-var Input = require('./index');
+var Input = require('./index.jsx');
 var formMixin = require('mixins/formMixin');
 
 var MyComponent = React.createClass({

@@ -4,7 +4,7 @@
 
 'use strict';
 var React = require('react')
-var Repeat = require('./index');
+var Repeat = require('./index.jsx');
 
 var arr = [1, 2, 3, 4, 5 ];
 
