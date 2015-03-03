@@ -17,9 +17,9 @@ var PagesHolder = React.createClass({
     return (
         <Locations contextual>
           <Location path="/" handler={HomePage} />
-          <Location path="/react-utils-helper/index.html" handler={HomePage} />
-          <Location path="/react-utils-helper/getting-started.html" handler={GettingStartedPage} />
-          <Location path="/react-utils-helper/components.html" handler={ComponentsPage} />
+          <Location path="/index.html" handler={HomePage} />
+          <Location path="/getting-started.html" handler={GettingStartedPage} />
+          <Location path="/components.html" handler={ComponentsPage} />
           <NotFound handler={NotFoundPage} />
         </Locations>
       );
