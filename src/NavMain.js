@@ -9,11 +9,11 @@ var InternalLink = Router.Link;
 
 var NAV_LINKS = {
   'getting-started': {
-    link: 'react-utils-helper/getting-started.html',
+    link: 'getting-started.html',
     title: 'Getting started'
   },
   'components': {
-    link: 'react-utils-helper/components.html',
+    link: 'components.html',
     title: 'Components'
   }
 };
@@ -24,7 +24,7 @@ var NavMain = React.createClass({
   },
 
   render: function () {
-    var brand = <InternalLink href="/react-utils-helper" className="navbar-brand">React Component Helper</InternalLink>;
+    var brand = <InternalLink href="/" className="navbar-brand">React Component Helper</InternalLink>;
 
     return (
       <Navbar componentClass='header' brand={brand} staticTop className="bs-docs-nav" role="banner" toggleNavKey={0}>
