@@ -9,11 +9,11 @@ var InternalLink = Router.Link;
 
 var NAV_LINKS = {
   'getting-started': {
-    link: 'getting-started.html',
+    link: 'react-utils-helper/getting-started.html',
     title: 'Getting started'
   },
   'components': {
-    link: 'components.html',
+    link: 'react-utils-helper/components.html',
     title: 'Components'
   }
 };
