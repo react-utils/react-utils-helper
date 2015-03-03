@@ -9,16 +9,16 @@ var PageHeader = React.createClass({
         <footer className="bs-docs-footer" role="contentinfo">
           <div className="container">
             <div className="bs-docs-social">
-              {/*<ul className="bs-docs-social-buttons">
-                              <li>
-                                <iframe className="github-btn" src={'http://ghbtns.com/github-btn.html?user=react-bootstrap&repo=react-bootstrap&type=watch&count=true'} width={95} height={20} title="Star on GitHub" />
-                              </li>
-                              <li>
-                                <iframe className="github-btn" src={'http://ghbtns.com/github-btn.html?user=react-bootstrap&repo=react-bootstrap&type=fork&count=true'} width={92} height={20} title="Fork on GitHub" />
-                              </li>
-                            </ul>*/}
+              <ul className="bs-docs-social-buttons">
+                <li>
+                  <iframe className="github-btn" src={'http://ghbtns.com/github-btn.html?user=react-utils&repo=react-utils-helper&type=watch&count=true'} width={95} height={20} title="Star on GitHub" />
+                </li>
+                <li>
+                  <iframe className="github-btn" src={'http://ghbtns.com/github-btn.html?user=react-utils&repo=react-utils-helper&type=fork&count=true'} width={92} height={20} title="Fork on GitHub" />
+                </li>
+              </ul>
             </div>
-            <p>Code licensed under <a href="https://github.com/react-utils/react-utils-helper/blob/master/LICENSE" target="_blank">MIT</a>.</p>
+            <p>Code licensed under <a href="https://github.com/react-utils/react-utils-helper/blob/master/LICENSE" target="_blank">Apache License</a>.</p>
             <ul className="bs-docs-footer-links muted">
               <li>Currently v{packageJSON.version}</li>
               <li>·</li>

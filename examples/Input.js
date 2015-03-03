@@ -1,6 +1,4 @@
 
-var formMixin = require('react-utils-helpers/src/mixins/formMixin');
-
 var InputComponent = React.createClass({
 
 	mixins: [formMixin],

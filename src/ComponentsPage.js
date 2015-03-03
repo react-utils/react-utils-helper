@@ -117,22 +117,22 @@ var ComponentsPage = React.createClass({
                     </div>
 
                      <div>
-                      <h2 id="hide">Hide <small></small></h2>
+                      <h2 id="checkbox">Checkbox <small></small></h2>
                       <p>The Show component shows or hides the given HTML element based on the props provided to the show component.</p>
-                      <ReactPlayground codeText={fs.readFileSync(__dirname + '/../examples/Hide.js', 'utf8')} />
+                      <ReactPlayground codeText={fs.readFileSync(__dirname + '/../examples/Checkbox.js', 'utf8')} />
                     </div>
 
                     <div>
-                      <h2 id="hide">Hide <small></small></h2>
+                      <h2 id="radio">Radio <small></small></h2>
                       <p>The Show component shows or hides the given HTML element based on the props provided to the show component.</p>
-                      <ReactPlayground codeText={fs.readFileSync(__dirname + '/../examples/Hide.js', 'utf8')} />
+                      <ReactPlayground codeText={fs.readFileSync(__dirname + '/../examples/Radio.js', 'utf8')} />
                     </div>
 
 
                     <div>
-                      <h2 id="hide">Hide <small></small></h2>
+                      <h2 id="select">Select <small></small></h2>
                       <p>The Show component shows or hides the given HTML element based on the props provided to the show component.</p>
-                      <ReactPlayground codeText={fs.readFileSync(__dirname + '/../examples/Hide.js', 'utf8')} />
+                      <ReactPlayground codeText={fs.readFileSync(__dirname + '/../examples/Select.js', 'utf8')} />
                     </div>
 
 
@@ -161,23 +161,12 @@ var ComponentsPage = React.createClass({
                     <NavItem href="#repeat" key={2}>Repeat</NavItem>
                     <NavItem href="#show" key={3}>Show</NavItem>
                     <NavItem href="#hide" key={4}>Hide</NavItem>
-                    <NavItem href="#progress" key={8}>Progress bars</NavItem>
-                    <NavItem href="#navs" key={9}>Navs</NavItem>
-                    <NavItem href="#navbars" key={10}>Navbars</NavItem>
-                    <NavItem href="#tabs" key={11}>Togglable tabs</NavItem>
-                    <NavItem href="#pager" key={12}>Pager</NavItem>
-                    <NavItem href="#alerts" key={13}>Alerts</NavItem>
-                    <NavItem href="#carousels" key={14}>Carousels</NavItem>
-                    <NavItem href="#grids" key={15}>Grids</NavItem>
-                    <NavItem href="#listgroup" key={16}>List group</NavItem>
-                    <NavItem href="#labels" key={17}>Labels</NavItem>
-                    <NavItem href="#badges" key={18}>Badges</NavItem>
-                    <NavItem href="#jumbotron" key={19}>Jumbotron</NavItem>
-                    <NavItem href="#page-header" key={20}>Page Header</NavItem>
-                    <NavItem href="#wells" key={21}>Wells</NavItem>
-                    <NavItem href="#glyphicons" key={22}>Glyphicons</NavItem>
-                    <NavItem href="#tables" key={23}>Tables</NavItem>
-                    <NavItem href="#input" key={24}>Input</NavItem>
+                    <NavItem href="#input" key={5}>Input</NavItem>
+                    <NavItem href="#textarea" key={6}>Textarea</NavItem>
+                    <NavItem href="#checkbox" key={10}>Checkbox</NavItem>
+                    <NavItem href="#radio" key={11}>Radio</NavItem>
+                    <NavItem href="#select" key={12}>Select</NavItem>
+                   
                   </Nav>
                   <a className="back-to-top" href="#top">
                   Back to top

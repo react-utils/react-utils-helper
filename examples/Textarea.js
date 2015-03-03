@@ -1,4 +1,3 @@
-var formMixin = require('react-utils-helper/src/mixins/formMixin');
 
 var TextareaComponent = React.createClass({
 

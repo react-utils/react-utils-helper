@@ -13,8 +13,12 @@ var Show = require('react-utils-helper/lib/show');
 var Hide = require('react-utils-helper/lib/hide');
 var Select = require('react-utils-helper/lib/select');
 var Textarea = require('react-utils-helper/lib/textarea');
+var Radio = require('react-utils-helper/lib/radio');
+
+var formMixin = require('react-utils-helper/lib/formMixin');
 
 var Alert = require('react-bootstrap/lib/Alert');
+
 
 var IS_MOBILE = typeof navigator !== 'undefined' && (
   navigator.userAgent.match(/Android/i)
@@ -85,7 +89,7 @@ var selfCleaningTimeout = {
 };
 
 var ReactPlayground = React.createClass({
-  mixins: [selfCleaningTimeout],
+  mixins: [selfCleaningTimeout, formMixin],
 
   MODES: {JSX: 'JSX', JS: 'JS', NONE: null},
 
