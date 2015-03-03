@@ -68,7 +68,7 @@ var ComponentsPage = React.createClass({
 
                     <div>
                       <h2 id="hide">Hide <small></small></h2>
-                      <p>The Show component shows or hides the given HTML element based on the props provided to the show component.</p>
+                      <p>The Hide component shows or hides the given HTML element based on the props provided to the show component.</p>
                       <ReactPlayground codeText={fs.readFileSync(__dirname + '/../examples/Hide.js', 'utf8')} />
                     </div>                 
 
