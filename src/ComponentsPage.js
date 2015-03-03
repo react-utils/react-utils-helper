@@ -118,20 +118,20 @@ var ComponentsPage = React.createClass({
 
                      <div>
                       <h2 id="checkbox">Checkbox <small></small></h2>
-                      <p>The Show component shows or hides the given HTML element based on the props provided to the show component.</p>
+                      <p>When passed model props, it provides data-binding and input state control.</p>
                       <ReactPlayground codeText={fs.readFileSync(__dirname + '/../examples/Checkbox.js', 'utf8')} />
                     </div>
 
                     <div>
                       <h2 id="radio">Radio <small></small></h2>
-                      <p>The Show component shows or hides the given HTML element based on the props provided to the show component.</p>
+                      <p>When passed model props, it provides data-binding and input state control.</p>
                       <ReactPlayground codeText={fs.readFileSync(__dirname + '/../examples/Radio.js', 'utf8')} />
                     </div>
 
 
                     <div>
                       <h2 id="select">Select <small></small></h2>
-                      <p>The Show component shows or hides the given HTML element based on the props provided to the show component.</p>
+                      <p>When passed model props, it provides data-binding and input state control.</p>
                       <ReactPlayground codeText={fs.readFileSync(__dirname + '/../examples/Select.js', 'utf8')} />
                     </div>
 
@@ -163,9 +163,9 @@ var ComponentsPage = React.createClass({
                     <NavItem href="#hide" key={4}>Hide</NavItem>
                     <NavItem href="#input" key={5}>Input</NavItem>
                     <NavItem href="#textarea" key={6}>Textarea</NavItem>
-                    <NavItem href="#checkbox" key={10}>Checkbox</NavItem>
-                    <NavItem href="#radio" key={11}>Radio</NavItem>
-                    <NavItem href="#select" key={12}>Select</NavItem>
+                    <NavItem href="#checkbox" key={7}>Checkbox</NavItem>
+                    <NavItem href="#radio" key={8}>Radio</NavItem>
+                    <NavItem href="#select" key={9}>Select</NavItem>
                    
                   </Nav>
                   <a className="back-to-top" href="#top">
