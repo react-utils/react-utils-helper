@@ -1,6 +1,6 @@
 {
   "name": "react-utils-helper",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A bunch of helper components for React",
   "main": "webpack.config.js",
   "dependencies": {
