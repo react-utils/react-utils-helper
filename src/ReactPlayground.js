@@ -2,51 +2,17 @@ var React = require('react');
 var classSet = require('react/lib/cx');
 var CodeMirror = global.CodeMirror;
 var JSXTransformer = global.JSXTransformer;
-var Accordion = require('react-bootstrap/lib/Accordion');
-var Alert = require('react-bootstrap/lib/Alert');
-var Badge = require('react-bootstrap/lib/Badge');
-var Button = require('react-bootstrap/lib/Button');
-var ButtonGroup = require('react-bootstrap/lib/ButtonGroup');
-var ButtonToolbar = require('react-bootstrap/lib/ButtonToolbar');
-var Carousel = require('react-bootstrap/lib/Carousel');
-var CarouselItem = require('react-bootstrap/lib/CarouselItem');
-var Col = require('react-bootstrap/lib/Col');
-var DropdownButton = require('react-bootstrap/lib/DropdownButton');
-var Glyphicon = require('react-bootstrap/lib/Glyphicon');
-var Grid = require('react-bootstrap/lib/Grid');
-var Input = require('react-bootstrap/lib/Input');
-var Jumbotron = require('react-bootstrap/lib/Jumbotron');
-var Label = require('react-bootstrap/lib/Label');
-var ListGroup = require('react-bootstrap/lib/ListGroup');
-var ListGroupItem = require('react-bootstrap/lib/ListGroupItem');
-var Nav = require('react-bootstrap/lib/Nav');
-var Navbar = require('react-bootstrap/lib/Navbar');
-var NavItem = require('react-bootstrap/lib/NavItem');
-var MenuItem = require('react-bootstrap/lib/MenuItem');
-var Modal = require('react-bootstrap/lib/Modal');
-var ModalTrigger = require('react-bootstrap/lib/ModalTrigger');
-var OverlayTrigger = require('react-bootstrap/lib/OverlayTrigger');
-var OverlayMixin = require('react-bootstrap/lib/OverlayMixin');
-var PageHeader = require('react-bootstrap/lib/PageHeader');
-var PageItem = require('react-bootstrap/lib/PageItem');
-var Pager = require('react-bootstrap/lib/Pager');
-var Panel = require('react-bootstrap/lib/Panel');
-var PanelGroup = require('react-bootstrap/lib/PanelGroup');
-var Popover = require('react-bootstrap/lib/Popover');
-var ProgressBar = require('react-bootstrap/lib/ProgressBar');
-var Row = require('react-bootstrap/lib/Row');
-var SplitButton = require('react-bootstrap/lib/SplitButton');
-var TabbedArea = require('react-bootstrap/lib/TabbedArea');
-var Table = require('react-bootstrap/lib/Table');
-var TabPane = require('react-bootstrap/lib/TabPane');
-var Tooltip = require('react-bootstrap/lib/Tooltip');
-var Well = require('react-bootstrap/lib/Well');
 
 var Repeat = require('react-utils-helper/lib/repeat');
 var Switch = require('react-utils-helper/lib/switch');
 var When = require('react-utils-helper/lib/switch/when');
 var Default = require('react-utils-helper/lib/switch/default');
-
+var Checkbox = require('react-utils-helper/lib/checkbox');
+var Input = require('react-utils-helper/lib/input');
+var Show = require('react-utils-helper/lib/show');
+var Hide = require('react-utils-helper/lib/hide');
+var Select = require('react-utils-helper/lib/select');
+var Textarea = require('react-utils-helper/lib/textarea');
 
 var IS_MOBILE = typeof navigator !== 'undefined' && (
   navigator.userAgent.match(/Android/i)
