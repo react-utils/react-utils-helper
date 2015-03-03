@@ -15,7 +15,7 @@ var HomePage = React.createClass({
           <main className="bs-docs-masthead" id="content" role="main">
             <div className="container">
               <span className="bs-docs-booticon bs-docs-booticon-lg bs-docs-booticon-outline"></span>
-              <p className="lead">A bunch of React Component Helper</p>
+              <p className="lead">A bunch of React Component Helpers</p>
             </div>
           </main>
 

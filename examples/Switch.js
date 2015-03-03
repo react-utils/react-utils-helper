@@ -1,6 +1,6 @@
 var value =	2;
 
-var SwitchComponent = (
+var TestComponent = (
     <Switch expression={value}>
 		<When switchCase={1}>one</When>
 		<When switchCase={2}>two</When>
@@ -12,4 +12,4 @@ var SwitchComponent = (
 	</Switch>
   );
 
-React.render(SwitchComponent, mountNode);
+React.render(TestComponent, mountNode);

@@ -1,12 +1,9 @@
+var condition = false;
 
-var HideComponent = ( 
-		<Hide model={false}>
-			<div> 
-				Hello 
-			</div>
-			<div>
-				World
-			</div>
-		</Hide>);
+var TestComponent = ( 
+		<Hide model={condition}>
+			Hello World
+		</Hide>
+	);
 
-React.render(HideComponent, mountNode);
+React.render(TestComponent, mountNode);

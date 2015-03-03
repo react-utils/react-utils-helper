@@ -1,13 +1,9 @@
+var condition = true;
 
-var ShowComponent = ( 
-		<Show model={true}>
-			<div> 
-				Hello 
-			</div>
-			<div>
-				World
-			</div>
-				hi
-		</Show>);
+var TestComponent = ( 
+		<Show model={condition}>
+			Hello World
+		</Show>
+	);
 
-React.render(ShowComponent, mountNode);
+React.render(TestComponent, mountNode);
