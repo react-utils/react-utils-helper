@@ -14,6 +14,8 @@ var Hide = require('react-utils-helper/lib/hide');
 var Select = require('react-utils-helper/lib/select');
 var Textarea = require('react-utils-helper/lib/textarea');
 
+var Alert = require('react-bootstrap/lib/Alert');
+
 var IS_MOBILE = typeof navigator !== 'undefined' && (
   navigator.userAgent.match(/Android/i)
     || navigator.userAgent.match(/webOS/i)
