@@ -9,11 +9,11 @@ var InternalLink = Router.Link;
 
 var NAV_LINKS = {
   'getting-started': {
-    link: '/getting-started.html',
+    link: 'getting-started.html',
     title: 'Getting started'
   },
   'components': {
-    link: '/components.html',
+    link: 'components.html',
     title: 'Components'
   }
 };
