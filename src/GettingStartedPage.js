@@ -27,7 +27,7 @@ var Page = React.createClass({
                   <h3>CommonJS</h3>
                   <div className="highlight">
                     <pre><code className="shell">{'\
-  $ npm install react-utils-helper@1.0.1\n\
+  $ npm install react-utils-helper@0.0.1\n\
   $ npm install react-utils-helper\n\
                     '}</code></pre>
                     <pre><code className="js">{'\
