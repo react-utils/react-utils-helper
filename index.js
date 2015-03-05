@@ -15,6 +15,6 @@ module.exports = {
 	Textarea: require('./lib/textarea'),
 	Select: require('./lib/select'),
 	Checkbox: require('./lib/checkbox'),
-	Radio: require('./lib/Radio'),
+	Radio: require('./lib/radio'),
 	FormMixin: require('./lib/formMixin')
 };
