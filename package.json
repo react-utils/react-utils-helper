@@ -34,6 +34,9 @@
     "node-jsx": "^0.12.4",
     "path": "^0.11.14",
     "react": "^0.12.2",
+    "react-async": "^2.0.1",
+    "react-bootstrap": "^0.16.1",
+    "react-router-component": "^0.24.1",
     "react-utils-helper": "^0.1.2",
     "supervisor": "^0.6.0",
     "url": "^0.10.3"
