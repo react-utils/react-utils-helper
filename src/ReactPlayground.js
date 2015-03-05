@@ -5,8 +5,6 @@ var JSXTransformer = global.JSXTransformer;
 
 var RU = require('react-utils-helper/lib');
 
-console.log(RU);
-
 var FormMixin = RU.FormMixin;
 
 var Alert = require('react-bootstrap/lib/Alert');

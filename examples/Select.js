@@ -1,6 +1,6 @@
 var TestComponent = React.createClass({
 
-	mixins: [FormMixin],
+	mixins: [RU.FormMixin],
 
     getInitialState: function(){
         return {

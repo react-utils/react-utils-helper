@@ -27,11 +27,11 @@ var Page = React.createClass({
                   <h3>CommonJS</h3>
                   <div className="highlight">
                     <pre><code className="shell">{'\
-  $ npm install react-utils-helper@0.1.0\n\
+  $ npm install react-utils-helper@0.1.3\n\
   $ npm install react-utils-helper\n\
                     '}</code></pre>
                     <pre><code className="js">{'\
-  var Input = require(\'react-bootstrap/lib/Input\');\n\
+  var RU = require(\'react-utils-helper/lib\');\n\
                     '}</code></pre>
                   </div>
 
@@ -54,7 +54,10 @@ var Page = React.createClass({
                   <div className="highlight">
                     
                     <pre><code className="js">{'\
-  var formMixin = require(\'react-utils-helper/lib/formMixin\');\n\
+  var FormMixin = RU.FormMixin;\n\
+  mixins: [FormMixin],\n\
+  //or\n\
+  mixins:[RU.FormMixin],\n\
                     '}</code></pre>
                   </div>
 
