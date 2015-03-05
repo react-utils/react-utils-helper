@@ -24,7 +24,7 @@ var NavMain = React.createClass({
   },
 
   render: function () {
-    var brand = <InternalLink href="/" className="navbar-brand">React Component Helper</InternalLink>;
+    var brand = <span className="navbar-brand"><a href="http://react-utils.github.io">React Utils</a> > <InternalLink href="/">React Component Helper</InternalLink></span>;
 
     return (
       <Navbar componentClass='header' brand={brand} staticTop className="bs-docs-nav" role="banner" toggleNavKey={0}>
