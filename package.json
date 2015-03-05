@@ -1,6 +1,6 @@
 {
   "name": "react-utils-helper",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A bunch of helper components for React",
   "main": "webpack.config.js",
   "dependencies": {
@@ -41,5 +41,12 @@
   "bugs": {
     "url": "https://github.com/react-utils/react-utils-helper/issues"
   },
-  "homepage": "https://github.com/react-utils/react-utils-helper"
+  "homepage": "https://github.com/react-utils/react-utils-helper",
+  "keywords": [
+    "A",
+    "Utility",
+    "Tool",
+    "for",
+    "React"
+  ]
 }
