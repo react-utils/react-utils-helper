@@ -1,9 +1,9 @@
 var condition = true;
 
 var TestComponent = ( 
-		<Show model={condition}>
+		<RU.Show model={condition}>
 			Hello World
-		</Show>
+		</RU.Show>
 	);
 
 React.render(TestComponent, mountNode);

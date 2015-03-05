@@ -34,7 +34,6 @@
     "node-jsx": "^0.12.4",
     "path": "^0.11.14",
     "react": "^0.12.2",
-    "react-utils-helper": "^0.1.0",
     "supervisor": "^0.6.0",
     "url": "^0.10.3"
   },

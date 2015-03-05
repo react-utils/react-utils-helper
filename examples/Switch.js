@@ -1,15 +1,15 @@
 var value =	2;
 
 var TestComponent = (
-    <Switch expression={value}>
-		<When switchCase={1}>one</When>
-		<When switchCase={2}>two</When>
-		<When switchCase={3}>three</When>
-		<When switchCase={4}>four</When>
-		<When switchCase={5}>five</When>
-		<When switchCase={6}>six</When>
-		<Default>default</Default>
-	</Switch>
+    <RU.Switch expression={value}>
+			<RU.When switchCase={1}>one</RU.When>
+			<RU.When switchCase={2}>two</RU.When>
+			<RU.When switchCase={3}>three</RU.When>
+			<RU.When switchCase={4}>four</RU.When>
+			<RU.When switchCase={5}>five</RU.When>
+			<RU.When switchCase={6}>six</RU.When>
+			<RU.Default>default</RU.Default>
+	</RU.Switch>
   );
 
 React.render(TestComponent, mountNode);

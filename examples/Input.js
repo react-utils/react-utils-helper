@@ -1,7 +1,7 @@
 
 var TestComponent = React.createClass({
 
-	mixins: [formMixin],
+	mixins: [RU.FormMixin],
 
     getInitialState: function(){
         return {
@@ -12,7 +12,7 @@ var TestComponent = React.createClass({
     render: function(){
         return (<div>
 
-        			<Input model={this.link("name")}/> {this.state.name}
+        			<RU.Input model={this.link("name")}/> {this.state.name}
 
          		</div>);
     }

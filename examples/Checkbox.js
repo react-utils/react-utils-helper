@@ -1,6 +1,8 @@
+
+
 var TestComponent = React.createClass({
 
-    mixins: [formMixin],
+    mixins: [RU.FormMixin],
 
     getInitialState: function(){
         return {
@@ -11,10 +13,10 @@ var TestComponent = React.createClass({
 
     render: function(){
         return <div>
-                    <Checkbox model={this.link("isValid")} /> 
+                    <RU.Checkbox model={this.link("isValid")} /> 
                     {String(this.state.isValid)}
                     <br/>
-                    <Checkbox 
+                    <RU.Checkbox 
                         model={this.link("isChecked")} 
                         trueValue={"Yes"} 
                         falseValue={"No"} />

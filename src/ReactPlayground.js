@@ -3,19 +3,9 @@ var classSet = require('react/lib/cx');
 var CodeMirror = global.CodeMirror;
 var JSXTransformer = global.JSXTransformer;
 
-var Repeat = require('react-utils-helper/lib/repeat');
-var Switch = require('react-utils-helper/lib/switch');
-var When = require('react-utils-helper/lib/switch/when');
-var Default = require('react-utils-helper/lib/switch/default');
-var Checkbox = require('react-utils-helper/lib/checkbox');
-var Input = require('react-utils-helper/lib/input');
-var Show = require('react-utils-helper/lib/show');
-var Hide = require('react-utils-helper/lib/hide');
-var Select = require('react-utils-helper/lib/select');
-var Textarea = require('react-utils-helper/lib/textarea');
-var Radio = require('react-utils-helper/lib/radio');
+var RU = require('react-utils-helper');
 
-var formMixin = require('react-utils-helper/lib/formMixin');
+var FormMixin = RU.FormMixin;
 
 var Alert = require('react-bootstrap/lib/Alert');
 
@@ -89,7 +79,7 @@ var selfCleaningTimeout = {
 };
 
 var ReactPlayground = React.createClass({
-  mixins: [selfCleaningTimeout, formMixin],
+  mixins: [selfCleaningTimeout, FormMixin],
 
   MODES: {JSX: 'JSX', JS: 'JS', NONE: null},
 

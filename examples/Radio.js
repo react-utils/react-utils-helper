@@ -1,6 +1,6 @@
 var TestComponent = React.createClass({
 
-	mixins: [formMixin],
+	mixins: [RU.FormMixin],
 
     getInitialState: function(){
         return {
@@ -10,9 +10,9 @@ var TestComponent = React.createClass({
 
     render: function(){
         return <div> 
-                    <Radio model={this.link("classroom_id")} name="name" value={1}/>1 <br/>
-                    <Radio model={this.link("classroom_id")} name="name" value={2}/>2 <br/>
-                    <Radio model={this.link("classroom_id")} name="name" value={3}/>3 <br/>
+                    <RU.Radio model={this.link("classroom_id")} name="name" value={1}/>1 <br/>
+                    <RU.Radio model={this.link("classroom_id")} name="name" value={2}/>2 <br/>
+                    <RU.Radio model={this.link("classroom_id")} name="name" value={3}/>3 <br/>
           			{this.state.classroom_id}
 
                 </div>;
