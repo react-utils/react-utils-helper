@@ -3,7 +3,9 @@ var classSet = require('react/lib/cx');
 var CodeMirror = global.CodeMirror;
 var JSXTransformer = global.JSXTransformer;
 
-var RU = require('react-utils-helper');
+var RU = require('react-utils-helper/lib');
+
+console.log(RU);
 
 var FormMixin = RU.FormMixin;
 

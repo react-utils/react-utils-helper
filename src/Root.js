@@ -63,7 +63,7 @@ var Root = React.createClass({
      * @returns {string}
      */
     getBaseUrl: function () {
-      return '/react-utils-helper';
+      return '/';
     }
   },
 
