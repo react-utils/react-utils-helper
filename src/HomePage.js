@@ -16,7 +16,7 @@ var HomePage = React.createClass({
             <div className="container">
               <span className="bs-docs-booticon bs-docs-booticon-lg bs-docs-booticon-outline"></span>
               <p className="lead">A bunch of React Component Helpers</p>
-              <p>React Component Helper adds syntactic sugar to <a href="http://reactjs.org">React JS</a> Templates. With inspiration from <a href="http://angularjs.org">AngularJS</a>’s ng-hide, ng-show, ng-switch and ng-model, React Utils Helper adds components like {"<RU.Show />"}, {"<RU.Hide />"}, {"<RU.Switch />"} and Two way binding helpers similar to <a href="http://angularjs.org">AngularJS</a>.</p>
+              <p>React Component Helper adds syntactic sugar to <a href="http://reactjs.org">React JS</a> Templates. With inspiration from <a href="http://angularjs.org">AngularJS</a>’s ng-hide, ng-show, ng-switch and ng-model, React Component Helper adds components like {"<RU.Show />"}, {"<RU.Hide />"}, {"<RU.Switch />"} and Two way binding helpers similar to <a href="http://angularjs.org">AngularJS</a>.</p>
             </div>
           </main>
 
